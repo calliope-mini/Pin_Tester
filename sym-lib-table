@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "pintest")(type "KiCad")(uri "${KIPRJMOD}/pintest.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "/Users/reza/Downloads/New_Library.kicad_sym")(options "")(descr ""))
+)
