@@ -2299,7 +2299,7 @@
   (symbol (lib_id "Device:R_Small") (at 138.43 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 516267f8-6bf5-4b49-9769-c1b14433b516)
-    (property "Reference" "R?" (id 0) (at 140.97 55.8799 0)
+    (property "Reference" "R101" (id 0) (at 140.97 55.8799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220R" (id 1) (at 140.97 58.4199 0)
@@ -2318,7 +2318,7 @@
   (symbol (lib_id "power:GND") (at 138.43 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 56cb12ab-12f5-4f1a-8053-e31bbfa739aa)
-    (property "Reference" "#PWR?" (id 0) (at 138.43 77.47 0)
+    (property "Reference" "#PWR0103" (id 0) (at 138.43 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 138.43 76.2 0))
@@ -3183,7 +3183,7 @@
   (symbol (lib_id "Device:LED") (at 138.43 66.04 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f71c5758-0205-44e4-9d5e-deb0b12e8435)
-    (property "Reference" "D?" (id 0) (at 142.24 64.77 90)
+    (property "Reference" "D101" (id 0) (at 142.24 64.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 142.24 63.5 90)
@@ -3245,11 +3245,11 @@
     (path "/0a5e0b9a-1f8f-4966-822e-6a383f3d215f"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
+    (path "/56cb12ab-12f5-4f1a-8053-e31bbfa739aa"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
     (path "/9783b0af-73d6-405a-b318-c2f98201889f"
       (reference "#PWR0115") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/56cb12ab-12f5-4f1a-8053-e31bbfa739aa"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/620a9587-a5c6-4ff0-af75-afdac5c500c8"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
@@ -3327,7 +3327,7 @@
       (reference "D25") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/f71c5758-0205-44e4-9d5e-deb0b12e8435"
-      (reference "D?") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D101") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/e9fc6fb3-1883-4405-b5ce-f32536b3ee78"
       (reference "J1") (unit 1) (value "mini3_connector") (footprint "Pin_tester:mini3_connector_new")
@@ -3432,7 +3432,7 @@
       (reference "R25") (unit 1) (value "220R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/516267f8-6bf5-4b49-9769-c1b14433b516"
-      (reference "R?") (unit 1) (value "220R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R101") (unit 1) (value "220R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
   )
 )
